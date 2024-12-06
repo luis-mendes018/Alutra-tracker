@@ -1,0 +1,59 @@
+{
+  "projetos": [
+    {
+      "id": 1,
+      "nome": "Alura tracker 3.0."
+    },
+    {
+      "id": 2,
+      "nome": "My close 2.0"
+    },
+    {
+      "id": 3,
+      "nome": "Terminando o curso de vue com composition API"
+    }
+  ],
+  "tarefas": [
+    {
+      "id": 1,
+      "duracaoEmSegundos": 120,
+      "descricao": "Configuração da API do myClose",
+      "projeto": {
+        "nome": "My close",
+        "id": 2
+      }
+    },
+    {
+      "duracaoEmSegundos": 4,
+      "descricao": "Refatorando código do projeto myClose",
+      "projeto": {
+        "nome": "My close",
+        "id": 2
+      },
+      "id": 2
+    },
+    {
+      "duracaoEmSegundos": 10,
+      "descricao": "Terminando o alutra tracker",
+      "projeto": {
+        "id": 1,
+        "nome": "Alura tracker 3.0."
+      },
+      "id": 3
+    },
+    {
+      "duracaoEmSegundos": 20,
+      "descricao": "Estudando composition API e refatorando o código 2",
+      "projeto": {
+        "id": 3,
+        "nome": "Terminando o curso de vue com composition API"
+      },
+      "id": 4
+    },
+    {
+      "duracaoEmSegundos": 2,
+      "descricao": "teste 2",
+      "id": 5
+    }
+  ]
+}
